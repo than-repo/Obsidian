@@ -1,0 +1,7 @@
+- Tạo file .env (dev) và .env.production (prod) ở root project.
+- Thêm biến: REACT_APP_API_URL=https://api.dev.com trong .env.
+- Truy cập trong code: const apiUrl = process.env.REACT_APP_API_URL;.
+- Thêm .env* vào .gitignore để tránh commit.
+- Tạo .env.example với biến mẫu (không giá trị thực).
+- Trên Vercel/Netlify: Vào dashboard > Environment Variables > Add vars với prefix REACT_APP_.
+- Build app: npm run build – vars được inject tự động.
