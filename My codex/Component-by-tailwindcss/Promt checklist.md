@@ -1,0 +1,1 @@
+tôi cần checklist để code một grid hiện các card sản phẩm, checklist là dạng step by step để code ra grid đó với tailwindcss

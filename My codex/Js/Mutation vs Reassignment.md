@@ -1,0 +1,1 @@
+Const protects the binding, not the value. It ensures the variable always points to the same memory location, but does not prevent modifying the content of that memory location if it's an object.
