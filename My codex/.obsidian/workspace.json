@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/react-router-dom.md",
+                "file": "React/Debug.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "react-router-dom"
+              "title": "Debug"
             }
           }
         ]
@@ -171,10 +171,13 @@
   },
   "active": "e780dc6b061eded6",
   "lastOpenFiles": [
+    "React/useForm.md",
+    "React/Debug.md",
+    "React/environment-variables.md",
     "React/movieSlice.js.md",
     "React/react-router-dom.md",
+    "React/NavLink & Link.md",
     "Algorithm/apiClient.md",
-    "React/environment-variables.md",
     "Img/Pasted image 20251111214912.png",
     "Ts/Compile ts - js.md",
     "Img/Untitled.canvas",

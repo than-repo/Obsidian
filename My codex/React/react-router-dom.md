@@ -17,6 +17,10 @@ const router = createBrowserRouter([
     element: <HeaderLayout />,
     errorElement: <ErrorPage />, // ← Thêm error handling
     children: [
+    {
+       index: true,
+       element: <Navigate to="/A" replace />,
+      },
       { path: "/", element: <div>Home</div> },
       // ... other routes
     ],
@@ -28,3 +32,5 @@ function App() {
   return <RouterProvider router={router} />;
 }
 ```
+
+
